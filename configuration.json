@@ -1,0 +1,44 @@
+
+
+
+{
+		
+	"Data_Preprocessing":
+	{
+	 "PathToLogFile": "..\\logfile.log",
+	 "ImageDirectory": "..\\Image_directory",
+	 "SizeofImage": 32,
+	 "Image_Augmentation":
+	 { 
+	 "Augmentation": false,
+	 "Image_Rotation": 40,
+	 "NumberofImages": 10,
+	 "PathofImageForAugmentation": "..PathofImageforAugmentation\\dog.jpg", 
+	 "PathforAugImages": "..\\FoldernametoSaveAugemnetedImages",
+	 "DataGene_BatchSize": 10, 
+	 "Image_Flip": true
+	 },
+	 
+	 "PicklingData": true,
+	 "SavingPickledTrainData": "Training_Data.pkl.gz",
+	 "SavingPickledTestData": "Test_Data.pkl.gz"
+	 
+	},
+	"CNN_Train_Model":
+	{
+		"PathtoTrainingData": "\\trainingdata1.pkl.gz",
+		"ImageChannel": 3,
+		"Epochs": 100,
+		"Batchsize": 64,
+		"PathToSaveModels": "\\saved_models",
+		"TrainedCNNModel": "\\CNNModel.h5"
+
+	}, 
+	"CNN_Test_Model":
+	{
+	 "PathofTestData":"..\\testdata1.pkl.gz",
+	 "PathtoSaveConfidenceMatrix": "..\\confiMatrix.png"
+	
+	}
+	
+}
