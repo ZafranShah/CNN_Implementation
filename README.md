@@ -4,7 +4,7 @@
  
  This project contains different module:
  
- -DataPreparation module can be used for data augmentation as well as extraction. This module contain the functionality to preprocess raw     data and store it in different format.  
+ -DataPreparation module can be used for data augmentation as well as extraction. This module contain the functionality to preprocess raw      data and store it in different format.  
  
  -Train CNN module is used to train the model and then save trained model.
   
