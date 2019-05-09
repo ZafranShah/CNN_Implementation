@@ -13,12 +13,13 @@ Keras CNN Implementation
  
  Following libraries are required to this run code: 
  
- Tensorflow Version: '1.9.0'
- Keras: '2.2.2'
- Opencv: '3.4.2'
- sklearn: '0.20.0'
- matplotlib: '2.2.2'
- numpy: '1.15.4'
+ -Python: '3.6'
+ -Tensorflow Version: '1.9.0'
+ -Keras: '2.2.2'
+ -Opencv: '3.4.2'
+ -sklearn: '0.20.0'
+ -matplotlib: '2.2.2'
+ -numpy: '1.15.4'
  
  
  
